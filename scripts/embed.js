@@ -1,4 +1,4 @@
-window.onload = function() {
+function resize_iframes() {
     let iframes = document.querySelectorAll("iframe");
 
     for (let i = 0; i < iframes.length; i++) {
@@ -11,3 +11,6 @@ window.onload = function() {
         iframes[i].style.height = frameHeight.toString(10) + "px";
     }
 };
+
+window.onload = resize_iframes;
+window.onresize = resize_iframes;

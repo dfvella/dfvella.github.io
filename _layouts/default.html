@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <div class="page-content">
+        <div class="left-column">
+            <div class="name-box">
+                <h1>David Vella</h1>
+            </div>
+            <div class="portrait-box">
+                <img class="portrait-img" src="/assets/portrait.png" alt="portrait">
+            </div>
+            <div class="contact-box">
+                <div class="contact-item">
+                    <img class="contact-img" src="/assets/icon-email.png">
+                    <span id="contact-email"></span>
+                </div>
+                <div class="contact-item">
+                    <img class="contact-img" src="/assets/icon-phone.png">
+                    <span id="contact-phone"></span>
+                </div>
+                <div class="contact-item">
+                    <img class="contact-img" src="/assets/icon-linkedin.png">
+                    <a id="contact-linkedin" target="_blank" href="{{ page.linkedin_url }}">LinkedIn</a>
+                </div>
+                <div class="contact-item">
+                    <img class="contact-img" src="/assets/icon-github.png">
+                    <a id="contact-github" target="_blank" href="{{ page.github_url }}">GitHub</a>
+                </div>
+                <div class="contact-item">
+                    <img class="contact-img" src="/assets/icon-html.png">
+                    <a id="contact-html" target="_blank" href="{{ page.html_url }}">Resume (browser view)</a>
+                </div>
+                <div class="contact-item">
+                    <img class="contact-img" src="/assets/icon-pdf.png">
+                    <a id="contact-pdf" target="_blank" href="{{ page.pdf_url }}">Resume (download pdf)</a>
+                </div>
+            </div>
+        </div>
+        <div class="right-column">
+            {{ content }}
+        </div>
+    </div>
+    <script src="/scripts/contact.js"></script>
+    <script src="/scripts/embed.js"></script>
+</body>
+</html>
