@@ -49,4 +49,3 @@ A radio-controlled aircraft designed from scratch. Built using foamboard, popsic
 <div class="iframe-container">
     <iframe width="auto" height="auto" src="https://www.youtube.com/embed/cBE7Zsw_qkA"></iframe>
 </div>
-
