@@ -14,7 +14,7 @@ I am an undergraduate Computer Engineering student at the University of Michigan
 
 ### VTOL Flight Control System (Version 2)
 
-I am currently working on a flight control system that will provide flight stabilization for VTOL aircraft. The system is built around the Raspberry Pi Pico microcontroller. The system uses onboard sensors and a feedback loop to stabilize the aircraft in vertical flight. The unusual tail-sitter design simplifies the mechanical complexity and improves the durability of the aircraft.
+I am currently working on a flight control system that will provide flight stabilization for VTOL aircraft. The system is built around the Raspberry Pi Pico microcontroller. The system uses onboard sensors and feedback loops to stabilize the aircraft in vertical flight. The unusual tail-sitter design simplifies the mechanical complexity and improves the durability of the aircraft.
 
 [view code on GitHub](https://github.com/dfvella/vtol-2)
 
