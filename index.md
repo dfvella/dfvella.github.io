@@ -24,7 +24,7 @@ I am currently working on a flight control system that will provide flight stabi
 
 ### VTOL Flight Control System
 
-An Arduino-based flight control system that uses a gyroscope and feedback loop to stabilize the aircraft in vertical flight. I have abandoned this project in favor of new aircraft design that should be more robust and controllable.
+An Arduino-based flight control system that uses a gyroscope and feedback loop to stabilize the aircraft in vertical flight. I have abandoned this project in favor of a new aircraft design that should be more robust and controllable.
 
 [view code on GitHub](https://github.com/dfvella/vtol)
 
