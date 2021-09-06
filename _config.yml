@@ -20,4 +20,4 @@
 
 url: "https://davidvella.me"
 exclude: [ run.sh ] 
-markdwon: kramdown
+markdown: kramdown
