@@ -3,8 +3,7 @@ title: David Vella's WebPage
 layout: default
 linkedin_url: "https://www.linkedin.com/in/david-vella-657b581b4"
 github_url: "https://www.github.com/dfvella"
-html_url: "https://www.davidvella.me/resume"
-pdf_url: "https://raw.githubusercontent.com/dfvella/resume/master/docs/David_Vella_Resume.pdf"
+resume_url: "https://www.davidvella.me/resume"
 ---
 ## About
 
